@@ -66,16 +66,16 @@ export default class Main extends React.Component {
                 I am an aspiring Full Stack Developer currently studying at RED.
               </p>
               <p>
-                Before RED, I went to Langara for Sociology, pursuing an career
-                in Education when I stumbled across an Intro to Programming
-                course, based in Javascript.
+                Before RED, I went to Langara for Sociology, pursuing a career
+                in Education when I stumbled across an intro to programming
+                course based in Javascript.
               </p>
               <p>
-                Ever since then, I becomed obsessed with Programming and decided
-                to make a career change into Tech.
+                Ever since then, I've been obsessed with programming and decided
+                to make a career change into tech.
               </p>
               <p>
-                With Programming, I enjoy turning complex problems into simple,
+                With programming, I enjoy turning complex problems into simple,
                 beautiful and intuitive solutions.
               </p>
               <p>I am born and raised in Vancouver.</p>
@@ -110,17 +110,17 @@ export default class Main extends React.Component {
             <div className="skills-words-container">
               <p>
                 For Front-End development, learning the hottest and trending
-                frameworks/libraries are crucial for high performance. Which is
-                why I decided to learn and develop and React/React native,
+                frameworks/libraries are crucial for high performance which is
+                why I decided to learn and develop and React/React native
                 supplementing it with Javascript, SASS and HTML5. I also have a
                 lot of projects done with Wordpress as a CMS so that clients can
-                feel comfertable and at ease when dealing with their websites.
+                feel comfortable and at ease when dealing with their websites.
               </p>
               <p>
                 For Back-End development, I use nodeJS for server side code and
-                for databases I use PostgresSQL for SQL databases and MongoDB,
+                for databases I use PostgresSQL for SQL databases and MongoDB
                 for document-orientated databases. I've also used PHP
-                extensively with to power my projects made with Wordpress.
+                extensively to power my projects made with Wordpress.
               </p>
             </div>
           </div>

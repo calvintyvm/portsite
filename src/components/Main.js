@@ -15,25 +15,26 @@ import faNode from '@fortawesome/fontawesome-free-brands/faNode'
 import faPhp from '@fortawesome/fontawesome-free-brands/faPhp'
 import faLinkedin from '@fortawesome/fontawesome-free-brands/faLinkedin'
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
-import Swiper from 'react-id-swiper'
-import '../assets/scss/swiper.scss'
+import Carousel from 'nuka-carousel'
+// import Swiper from 'react-id-swiper'
+// import '../assets/scss/swiper.scss'
 
-let settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-}
+// let settings = {
+//   dots: true,
+//   infinite: true,
+//   speed: 500,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+// }
 
-class Main extends React.Component {
+export default class Main extends React.Component {
   render() {
-    const params = {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    }
+    // const params = {
+    //   navigation: {
+    //     nextEl: '.swiper-button-next',
+    //     prevEl: '.swiper-button-prev',
+    //   },
+    // }
     let close = (
       <div
         className="close"
@@ -136,7 +137,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <div className="carousel">
-            <Swiper {...params}>
+            <Carousel>
               <div>
                 <h2 className="project-title">Spread Calculator</h2>
                 <img
@@ -346,7 +347,7 @@ class Main extends React.Component {
                   </a>
                 </p>
               </div>
-            </Swiper>
+            </Carousel>
           </div>
           {close}
         </article>
@@ -409,5 +410,3 @@ Main.propTypes = {
   onCloseArticle: React.PropTypes.func,
   timeout: React.PropTypes.bool,
 }
-
-export default Main

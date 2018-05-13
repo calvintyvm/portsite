@@ -109,19 +109,18 @@ export default class Main extends React.Component {
             </div>
             <div className="skills-words-container">
               <p>
-                Adipiscing magna sed dolor elit. Praesent eleifend dignissim
-                arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat.
-                Praesent urna nisi, fringila lorem et vehicula lacinia quam.
-                Integer sollicitudin mauris nec lorem luctus ultrices.
+                For Front-End development, learning the hottest and trending
+                frameworks/libraries are crucial for high performance. Which is
+                why I decided to learn and develop and React/React native,
+                supplementing it with Javascript, SASS and HTML5. I also have a
+                lot of projects done with Wordpress as a CMS so that clients can
+                feel comfertable and at ease when dealing with their websites.
               </p>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-                Pellentesque condimentum sem. In efficitur ligula tate urna.
-                Maecenas laoreet massa vel lacinia pellentesque lorem ipsum
-                dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et
-                sagittis libero. Mauris aliquet magna magna sed nunc rhoncus
-                amet feugiat tempus.
+                For Back-End development, I use nodeJS for server side code and
+                for databases I use PostgresSQL for SQL databases and MongoDB,
+                for document-orientated databases. I've also used PHP
+                extensively with to power my projects made with Wordpress.
               </p>
             </div>
           </div>

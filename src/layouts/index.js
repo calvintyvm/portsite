@@ -122,10 +122,8 @@ class Template extends React.Component {
         </div>
         {/*<div id="bg"></div>*/}
 
-        <div className="video-background">
-          <div className="video-foreground">
+        <div className="image-background">
             <img src={Background} />
-          </div>
         </div>
       </div>
     )

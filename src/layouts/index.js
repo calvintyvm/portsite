@@ -2,7 +2,7 @@ import React from 'react'
 import '../assets/scss/main.scss'
 import Helmet from 'react-helmet'
 import YouTube from 'react-youtube'
-import Background from '../images/background.jpg'
+import Background from '../images/background.jpeg'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
@@ -123,7 +123,7 @@ class Template extends React.Component {
         {/*<div id="bg"></div>*/}
 
         <div className="image-background">
-            <img src={Background} />
+          <img src={Background} />
         </div>
       </div>
     )
